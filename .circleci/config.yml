@@ -8,8 +8,6 @@ jobs:
     - checkout:
         path: /data
     - run:
-        command: terragrunt init
-    - run:
         command: terragrunt apply-all
 workflows:
   version: 2
