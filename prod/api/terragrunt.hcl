@@ -1,5 +1,5 @@
 terraform {
-  source = "github.com/alanraison/planalan.git//api?ref=feature/10-api-gateway"
+  source = "github.com/alanraison/planalan.git//api?ref=feature%2F10-api-gateway"
 }
 
 include {
