@@ -3,6 +3,8 @@ jobs:
   deploy-prod:
     docker:
     - image: cytopia/terragrunt:0.12-0.19
+    environment:
+      TF_INPUT: false
     working_directory: /data/prod
     steps:
     - checkout:
